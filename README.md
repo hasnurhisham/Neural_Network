@@ -2,6 +2,10 @@
 
 Three **separate Streamlit applications** demonstrate the ReLU, Sigmoid and Tanh activation functions for BSD3513 Artificial Intelligence (Neural Networks lab).
 
+🔗 Project Links
+
+GitHub Repository: https://github.com/hasnurhisham/Neural_Network.git
+
 ## Applications
 
 | Application | Run command | Formula | Range |
@@ -25,23 +29,13 @@ Stop the running app and replace `relu_app.py` with `sigmoid_app.py` or `tanh_ap
 
 Create **three separate Streamlit Community Cloud deployments**, all pointing to the same GitHub repository but using different main file paths (`relu_app.py`, `sigmoid_app.py`, `tanh_app.py`). Add each public URL to your lab report.
 
-- ReLU: [insert link]
-- Sigmoid: [insert link]
-- Tanh: [insert link]
+- ReLU: https://relu-neuralnetwork-lab4.streamlit.app
+- Sigmoid: https://sigmoid-neuralnetwork-lab4.streamlit.app 
+- Tanh:  https://tanh-neuralnetwork-lab4.streamlit.app
 
 ## Validation
 
 - ReLU(-2)=0, ReLU(2)=2
-- Sigmoid(0)=0.5
-- Tanh(0)=0
+- Sigmoid(2)=0.8808
+- Tanh(2)=0.9640
 
-## Project files
-
-- `common.py` — reusable activation mathematics and chart generation
-- `relu_app.py`, `sigmoid_app.py`, `tanh_app.py` — independent Streamlit entry points
-- `requirements.txt` — dependencies
-- `screenshots/` — add screenshots of your three deployed applications
-
-## Notes
-
-These applications visualise activation functions; they do **not** train a neural network. The course PDF contains inconsistent lab numbering (Lab Report 5 on page 1 and Lab Report 4 on pages 3–4); confirm the correct filename with the lecturer.
